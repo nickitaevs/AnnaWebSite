@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#FBF7F3">
+  <title>Анна — мастер маникюра в Казани</title>
+  <meta name="description" content="Аккуратный маникюр, который держится до 4 недель. Работы, цены и отзывы. Запись в WhatsApp в одно касание.">
+  <meta property="og:title" content="Анна — мастер маникюра в Казани">
+  <meta property="og:description" content="Работы, цены и отзывы. Запись в WhatsApp в одно касание.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <link rel="icon" href="img/znachok.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!--
+  ЗАМЕНИТЬ ПЕРЕД ЗАПУСКОМ (поиск по файлу: «7XXXXXXXXXX» и «[»):
+  1. Номер WhatsApp — в трёх ссылках wa.me (7XXXXXXXXXX → 79171234567, без плюса и пробелов).
+  2. Фото — файлы в img/ (см. ИНСТРУКЦИЯ.md, фото готовит скрипт tools/podgotovit-foto.mjs).
+  3. Цены, отзывы, район и часы работы — только со слов Анны.
+-->
+
+<main>
+
+  <!-- 1. Первый экран -->
+  <header class="hero" id="nachalo">
+    <h1 class="hero__name">Анна</h1>
+    <p class="hero__role">Мастер маникюра в Казани</p>
+    <p class="hero__lead">Аккуратный маникюр, который держится до&nbsp;4&nbsp;недель</p>
+    <a class="btn" href="https://wa.me/7XXXXXXXXXX?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%90%D0%BD%D0%BD%D0%B0!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80" target="_blank" rel="noopener">
+      Записаться в WhatsApp
+    </a>
+  </header>
+
+  <!-- 2. Мои работы: 9–12 фото -->
+  <section class="section" id="raboty" aria-labelledby="raboty-h">
+    <h2 id="raboty-h">Мои работы</h2>
+    <ul class="gallery">
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 1"><img src="img/rabota-01-malaya.svg" data-full="img/rabota-01.svg" alt="Работа 1" width="600" height="600" decoding="async"></button></li>
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 2"><img src="img/rabota-02-malaya.svg" data-full="img/rabota-02.svg" alt="Работа 2" width="600" height="600" decoding="async"></button></li>
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 3"><img src="img/rabota-03-malaya.svg" data-full="img/rabota-03.svg" alt="Работа 3" width="600" height="600" decoding="async"></button></li>
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 4"><img src="img/rabota-04-malaya.svg" data-full="img/rabota-04.svg" alt="Работа 4" width="600" height="600" decoding="async"></button></li>
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 5"><img src="img/rabota-05-malaya.svg" data-full="img/rabota-05.svg" alt="Работа 5" width="600" height="600" loading="lazy" decoding="async"></button></li>
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 6"><img src="img/rabota-06-malaya.svg" data-full="img/rabota-06.svg" alt="Работа 6" width="600" height="600" loading="lazy" decoding="async"></button></li>
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 7"><img src="img/rabota-07-malaya.svg" data-full="img/rabota-07.svg" alt="Работа 7" width="600" height="600" loading="lazy" decoding="async"></button></li>
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 8"><img src="img/rabota-08-malaya.svg" data-full="img/rabota-08.svg" alt="Работа 8" width="600" height="600" loading="lazy" decoding="async"></button></li>
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 9"><img src="img/rabota-09-malaya.svg" data-full="img/rabota-09.svg" alt="Работа 9" width="600" height="600" loading="lazy" decoding="async"></button></li>
+      <li><button class="gallery__item" type="button" aria-label="Открыть фото работы 10"><img src="img/rabota-10-malaya.svg" data-full="img/rabota-10.svg" alt="Работа 10" width="600" height="600" loading="lazy" decoding="async"></button></li>
+    </ul>
+  </section>
+
+  <!-- 3. Цены: только актуальный прайс Анны -->
+  <section class="section" id="ceny" aria-labelledby="ceny-h">
+    <h2 id="ceny-h">Цены</h2>
+    <ul class="prices">
+      <li><span>Маникюр без покрытия</span><b>[цена]&nbsp;₽</b></li>
+      <li><span>Маникюр с покрытием гель-лаком</span><b>[цена]&nbsp;₽</b></li>
+      <li><span>Наращивание</span><b>[цена]&nbsp;₽</b></li>
+      <li><span>Дизайн</span><b>от&nbsp;[цена]&nbsp;₽</b></li>
+      <li><span>Снятие</span><b>[цена]&nbsp;₽</b></li>
+    </ul>
+    <p class="note">Точную стоимость уточню в переписке</p>
+  </section>
+
+  <!-- 4. Отзывы: только настоящие, до ~120 знаков, чтобы уложиться в 3 строки -->
+  <section class="section" id="otzyvy" aria-labelledby="otzyvy-h">
+    <h2 id="otzyvy-h">Отзывы</h2>
+    <ul class="reviews">
+      <li class="review">
+        <p class="review__text">[Текст настоящего отзыва, 2–3 коротких предложения]</p>
+        <p class="review__name">[Имя клиентки]</p>
+      </li>
+      <li class="review">
+        <p class="review__text">[Текст настоящего отзыва, 2–3 коротких предложения]</p>
+        <p class="review__name">[Имя клиентки]</p>
+      </li>
+      <li class="review">
+        <p class="review__text">[Текст настоящего отзыва, 2–3 коротких предложения]</p>
+        <p class="review__name">[Имя клиентки]</p>
+      </li>
+      <li class="review">
+        <p class="review__text">[Текст настоящего отзыва, 2–3 коротких предложения]</p>
+        <p class="review__name">[Имя клиентки]</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 5. Запись -->
+  <section class="section section--last" id="zapis" aria-labelledby="zapis-h">
+    <h2 id="zapis-h">Запись</h2>
+    <dl class="info">
+      <div><dt>Где</dt><dd>Казань, [район или адрес]</dd></div>
+      <div><dt>Когда</dt><dd>[дни], [часы работы]</dd></div>
+    </dl>
+    <a class="btn" href="https://wa.me/7XXXXXXXXXX?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%90%D0%BD%D0%BD%D0%B0!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80" target="_blank" rel="noopener">
+      Записаться в WhatsApp
+    </a>
+  </section>
+
+</main>
+
+<!-- Закреплённая кнопка записи (видна только на телефоне) -->
+<a class="btn btn--sticky" href="https://wa.me/7XXXXXXXXXX?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D0%90%D0%BD%D0%BD%D0%B0!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D0%BC%D0%B0%D0%BD%D0%B8%D0%BA%D1%8E%D1%80" target="_blank" rel="noopener">
+  Записаться в WhatsApp
+</a>
+
+<!-- Просмотр фото на весь экран -->
+<dialog class="viewer" aria-label="Просмотр фото">
+  <div class="viewer__track"></div>
+  <p class="viewer__count" aria-live="polite"></p>
+  <button class="viewer__close" type="button" aria-label="Закрыть">×</button>
+  <button class="viewer__arrow viewer__arrow--prev" type="button" aria-label="Предыдущее фото">‹</button>
+  <button class="viewer__arrow viewer__arrow--next" type="button" aria-label="Следующее фото">›</button>
+</dialog>
+
+<script src="script.js" defer></script>
+</body>
+</html>
